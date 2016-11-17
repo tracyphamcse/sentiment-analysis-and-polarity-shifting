@@ -34,8 +34,10 @@ Dataset collected by [Blitzer et al. 2007](http://www.seas.upenn.edu/~mdredze/da
 
 * Note: domain = ['books', 'dvd', 'electronics', 'kitchen']  | -all
 
-### Result:
-Result in Unigram, Logistic Regression
+### Result:  
+
+Result in Unigram, Logistic Regression  
+```
 |                            | Books | DVD   | Electronics | Kitchen |  
 |----------------------------|-------|-------|-------------|---------|  
 | Original Baseline          | 79.80 | 81.10 | 81.90       | 85.00   |  
@@ -43,7 +45,7 @@ Result in Unigram, Logistic Regression
 | Unshifted Baseline         | 75.30 | 76.50 | 75.10       | 78.50   |  
 | Ensemble - Product Rule    | 80.90 | 81.90 | 82.30       | 85.60   |  
 | Ensemble - Stacking Method | **81.10** | **81.90** | **82.70**       | **86.10**   |  
-  
+```
 P value and statistical significance:  
 * The two-tailed P value equals 0.0038  
 * This difference is considered to be very statistically significant  
