@@ -36,17 +36,17 @@ Dataset collected by [Blitzer et al. 2007](http://www.seas.upenn.edu/~mdredze/da
 
 ### Result:
 Result in Unigram, Logistic Regression
-|                            | Books | DVD   | Electronics | Kitchen |
-|----------------------------|-------|-------|-------------|---------|
-| Original Baseline          | 79.80 | 81.10 | 81.90       | 85.00   |
-| Shifted Baseline           | 71.50 | 70.50 | 70.90       | 73.37   |
-| Unshifted Baseline         | 75.30 | 76.50 | 75.10       | 78.50   |
-| Ensemble - Product Rule    | 80.90 | 81.90 | 82.30       | 85.60   |
+|                            | Books | DVD   | Electronics | Kitchen |  
+|----------------------------|-------|-------|-------------|---------|  
+| Original Baseline          | 79.80 | 81.10 | 81.90       | 85.00   |  
+| Shifted Baseline           | 71.50 | 70.50 | 70.90       | 73.37   |  
+| Unshifted Baseline         | 75.30 | 76.50 | 75.10       | 78.50   |  
+| Ensemble - Product Rule    | 80.90 | 81.90 | 82.30       | 85.60   |  
 | Ensemble - Stacking Method | **81.10** | **81.90** | **82.70**       | **86.10**   |  
   
-P value and statistical significance:
-- The two-tailed P value equals 0.0038
-- By conventional criteria, this difference is considered to be very statistically significant.   
+P value and statistical significance:  
+* The two-tailed P value equals 0.0038. 
+* By conventional criteria, this difference is considered to be very statistically significant.   
 -------
 ##### REFERENCE
 Li, Shoushan, et al. "Sentiment classification and polarity shifting." Proceedings of the 23rd International Conference on Computational Linguistics. Association for Computational Linguistics, 2010.
