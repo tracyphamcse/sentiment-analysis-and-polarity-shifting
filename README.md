@@ -45,8 +45,7 @@ Result in Unigram, Logistic Regression
 | Ensemble - Stacking Method | **81.10** | **81.90** | **82.70**       | **86.10**   |  
   
 P value and statistical significance:  
-* The two-tailed P value equals 0.0038. 
-* By conventional criteria, this difference is considered to be very statistically significant.   
+* The two-tailed P value equals 0.0038. This difference is considered to be very statistically significant 
 -------
 ##### REFERENCE
 Li, Shoushan, et al. "Sentiment classification and polarity shifting." Proceedings of the 23rd International Conference on Computational Linguistics. Association for Computational Linguistics, 2010.
