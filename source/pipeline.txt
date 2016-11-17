@@ -1,0 +1,27 @@
+# preprocess data
+python handle_unprocessed_data.py -all
+
+# calculate the WFO to create ranking list,
+# generate training data set for polarity shifting detector
+python calculate_wfo.py -all
+python generate_shifting_training_data.py -all
+
+# train the baseline model
+python tfidf_model.py -base -all
+python baseline_model.py -all
+
+#train the polarity shifting model
+python tfidf_model.py -detect -all
+python shifting_detection_model.py -all
+
+# train the shift model
+python tfidf_shift_model.py -all
+python shifted_model.py -all
+
+# train the unshift model
+python tfidf_unshift_model.py -all
+python unshifted_model.py -all
+
+# train the ensemble model
+python ensemble_model.py -all
+
