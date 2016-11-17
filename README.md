@@ -42,7 +42,8 @@ Result in Unigram, Logistic Regression
 |----------------------------|-------|-------|-------------|---------|  
 | Original Baseline          | 79.80 | 81.10 | 81.90       | 85.00   |  
 | Shifted Baseline           | 71.50 | 70.50 | 70.90       | 73.37   |  
-| Unshifted Baseline         | 75.30 | 76.50 | 75.10       | 78.50   |  
+| Unshifted Baseline         | 75.30 | 76.50 | 75.10       | 78.50   | 
+|----------------------------|-------|-------|-------------|---------|  
 | Ensemble - Product Rule    | 80.90 | 81.90 | 82.30       | 85.60   |  
 | Ensemble - Stacking Method | 81.10 | 81.90 | 82.70       | 86.10   |  
 ```
