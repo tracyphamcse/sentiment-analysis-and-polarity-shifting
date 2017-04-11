@@ -1,6 +1,6 @@
 # SENTIMENT ANALYSIS & POLARITY SHIFTING
 The project is inspired by [Shoushan Li, et al. 2010](http://dl.acm.org/citation.cfm?id=1873853), which provided the framework for Sentiment Analysis with Polarity Shifting.  
-Dataset collected by [Blitzer et al. 2007](http://www.seas.upenn.edu/~mdredze/datasets/sentiment/).  
+Dataset collected by [Blitzer et al. 2007](https://www.cs.jhu.edu/~mdredze/datasets/sentiment/).  
   
 
 ### How to run
